@@ -77,8 +77,10 @@ def part2():
             memo[str(rocks)] = (i, sum(len(platform) - rock[0]
                                        for rock in rocks))
         else:
-            step = memo[str(rocks)][0] + (1000000000 -
-                                          i) % (i - memo[str(rocks)][0]) - 1
+            cycle_start = memo[str(rocks)][0]
+            cycle_length = i - memo[str(rocks)][0]
+            remaining_steps = (1000000000 - i)
+            step = cycle_start + remaining_steps % cycle_length - 1
             return [item[1][1] for item in memo.items() if item[1][0] == step][0]
 
 
