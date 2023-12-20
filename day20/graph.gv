@@ -1,0 +1,169 @@
+digraph {
+	jx [label="%jx"]
+	jx -> rt
+	jx -> rs
+	cc [label="&cc"]
+	cc -> cd
+	cc -> fc
+	cc -> qr
+	cc -> nl
+	cc -> gk
+	cc -> zr
+	qs [label="%qs"]
+	qs -> cl
+	qs -> rs
+	zr [label="%zr"]
+	zr -> cq
+	mx [label="%mx"]
+	mx -> nr
+	mx -> pm
+	mj [label="%mj"]
+	mj -> qr
+	mj -> cc
+	cj [label="%cj"]
+	cj -> cc
+	cj -> nt
+	jv [label="%jv"]
+	jv -> sp
+	dj [label="%dj"]
+	dj -> bd
+	dj -> zc
+	kt [label="%kt"]
+	kt -> lt
+	broadcaster [label=broadcaster]
+	broadcaster -> gz
+	broadcaster -> xg
+	broadcaster -> cd
+	broadcaster -> sg
+	dn [label="&dn"]
+	dn -> rx
+	br [label="%br"]
+	br -> nf
+	br -> bd
+	cd [label="%cd"]
+	cd -> cc
+	cd -> nl
+	zc [label="%zc"]
+	zc -> jq
+	zc -> bd
+	xg [label="%xg"]
+	xg -> cf
+	xg -> pm
+	nz [label="%nz"]
+	nz -> gm
+	nz -> bd
+	dd [label="&dd"]
+	dd -> dn
+	nb [label="%nb"]
+	nb -> sl
+	pm [label="&pm"]
+	pm -> kt
+	pm -> xg
+	pm -> xp
+	pm -> jv
+	pm -> sp
+	fh [label="&fh"]
+	fh -> dn
+	rt [label="%rt"]
+	rt -> qq
+	qq [label="%qq"]
+	qq -> rs
+	qq -> hd
+	hd [label="%hd"]
+	hd -> qs
+	hd -> rs
+	xp [label="&xp"]
+	xp -> dn
+	pj [label="%pj"]
+	pj -> cc
+	pj -> mj
+	gz [label="%gz"]
+	gz -> bd
+	gz -> kb
+	zd [label="%zd"]
+	zd -> jv
+	zd -> pm
+	cq [label="%cq"]
+	cq -> cj
+	cq -> cc
+	qr [label="%qr"]
+	qr -> gk
+	ng [label="%ng"]
+	ng -> jk
+	ng -> bd
+	kb [label="%kb"]
+	kb -> bd
+	kb -> sv
+	cl [label="%cl"]
+	cl -> zx
+	cl -> rs
+	gj [label="%gj"]
+	gj -> zd
+	gj -> pm
+	sl [label="%sl"]
+	sl -> kx
+	sv [label="%sv"]
+	sv -> br
+	nf [label="%nf"]
+	nf -> bd
+	nf -> nz
+	zx [label="%zx"]
+	zx -> rs
+	nt [label="%nt"]
+	nt -> mn
+	nt -> cc
+	rh [label="%rh"]
+	rh -> nb
+	rh -> rs
+	gk [label="%gk"]
+	gk -> ln
+	bd [label="&bd"]
+	bd -> gm
+	bd -> gz
+	bd -> fh
+	bd -> sv
+	jq [label="%jq"]
+	jq -> ng
+	jq -> bd
+	sp [label="%sp"]
+	sp -> pc
+	sg [label="%sg"]
+	sg -> rs
+	sg -> rh
+	kx [label="%kx"]
+	kx -> jx
+	fc [label="&fc"]
+	fc -> dn
+	cf [label="%cf"]
+	cf -> gj
+	cf -> pm
+	pc [label="%pc"]
+	pc -> kt
+	pc -> pm
+	jk [label="%jk"]
+	jk -> bd
+	vf [label="%vf"]
+	vf -> pm
+	rs [label="&rs"]
+	rs -> sg
+	rs -> dd
+	rs -> sl
+	rs -> kx
+	rs -> nb
+	rs -> rt
+	nr [label="%nr"]
+	nr -> vf
+	nr -> pm
+	ln [label="%ln"]
+	ln -> zr
+	ln -> cc
+	lt [label="%lt"]
+	lt -> pm
+	lt -> mx
+	gm [label="%gm"]
+	gm -> dj
+	nl [label="%nl"]
+	nl -> pj
+	mn [label="%mn"]
+	mn -> cc
+}
