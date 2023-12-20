@@ -84,6 +84,7 @@ def part2():
     graph.render(os.path.join(dirname, 'graph.gv'))
 
     # Deduced from the graph
+    # The cycles are 111110100011, 111110111011, 111101001111 and 111101001101
     return lcm(4003, 4027, 3919, 3917)
 
 
